@@ -5,42 +5,122 @@
 		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 		<script src="js/jquery-3.1.0.slim.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+		<script id="hidden-template" type="text/custom-template">
+			<div class="product-div col-md-3">
+				<div class="product-image-div col-md-offset-1 col-md-11 col-sm-offset-4 col-sm-8 col-xs-offset-2 col-xs-8" >
+					<img src="" class="img-responsive" />
+				</div>
+				<div class="col-md-12 col-sm-12 product-name-div">
+					<span class="span-text" class="product-name">###</span>
+				</div>
+				<div class="col-md-12 col-sm-12 product-price-div">
+					<div class="col-md-12">
+						<span class="product-currency">###</span>
+						<span class="product-price">###</span>
+					</div> 
+				</div>
+				<a class="product-add-to-cart-button" href="">	
+					<span class="span-text">Add to cart</span>
+				</a>
+			</div>
+		</script>
+		
 	</header>
 	
-	<body>
-		<div class="container" >
-		
-			<div class="cart-div">
-				<div class="cart-img"> 
+	<body class="background-gray">
+		<div class="container" >	
+			<div class="row">
+				<div class="cart-div">
+					<div class="cart-img"> 
+					</div>
 				</div>
 			</div>
-			<div class="products-div">
-				<div class="product-div col-md-3">
+	
+			<div class="row">
+				<div class="products-div">		
 					
-					<div class="product-image-div" >
-						<img src="images/Big_Air_Tyro_24.png" class="img-responsive" />
+					<div class="col-md-3 product-div-custom">
+						<div class="product-div">
+							<div class="product-image-div col-md-offset-1 col-md-11 col-sm-offset-4 col-sm-8 col-xs-offset-2 col-xs-8" >
+								<img src="images/Big_Air_Tyro_24.png" class="img-responsive" />
+							</div>
+							<div class="col-md-12 col-sm-12 product-name-div">
+								<span class="span-text" class="product-name">Big Air Tyro 24</span>
+							</div>
+							<div class="col-md-12 col-sm-12 product-price-div">
+								<div class="col-md-12">
+									<span class="product-currency">&euro;</span>
+									<span class="product-price">1599</span>
+								</div> 
+							</div>
+							<a class="product-add-to-cart-button" href="">	
+								<span class="span-text">Add to cart</span>
+							</a>
+						</div>
 					</div>
 					
-					
-					
-					<div class="product-name-div">
-						<span>Big Air Tyro 24'</span>
+					<div class="col-md-3 product-div-custom">
+						<div class="product-div">
+							<div class="product-image-div col-md-offset-1 col-md-11 col-sm-offset-4 col-sm-8 col-xs-offset-2 col-xs-8" >
+								<img src="images/Contrail_9_0.png" class="img-responsive" />
+							</div>
+							<div class="col-md-12 col-sm-12 product-name-div">
+								<span class="span-text" class="product-name">Contrail 9.0</span>
+							</div>
+							<div class="col-md-12 col-sm-12 product-price-div">
+								<div class="col-md-12">
+									<span class="product-currency">&euro;</span>
+									<span class="product-price">1399</span>
+								</div> 
+							</div>
+							<a class="product-add-to-cart-button" href="">	
+								<span class="span-text">Add to cart</span>
+							</a>
+						</div>
 					</div>
-					<div class="product-price-div">
-						<div class="product-normal-price">
-							<span>&euro;</span>
-							<span>1500,-</span>
-						</div> 
+					
+					<div class="col-md-3 product-div-custom">
+						<div class="product-div">
+							<div class="product-image-div col-md-offset-1 col-md-11 col-sm-offset-4 col-sm-8 col-xs-offset-2 col-xs-8" >
+								<img src="images/Fastlane_8_0_29.png" class="img-responsive" />
+							</div>
+							<div class="col-md-12 col-sm-12 product-name-div">
+								<span class="span-text" class="product-name">Fastlane 8.0 29</span>
+							</div>
+							<div class="col-md-12 col-sm-12 product-price-div">
+								<div class="col-md-12">
+									<span class="product-currency">&euro;</span>
+									<span class="product-price">2999</span>
+								</div> 
+							</div>
+							<a class="product-add-to-cart-button" href="">	
+								<span class="span-text">Add to cart</span>
+							</a>
+						</div>
 					</div>
 					
-					
-					<a class="product-add-to-cart-button" href="">	
-						<span class="product-add-to-cart-button-text">Add to cart</span>
-					</a>
-				
+					<div class="col-md-3 product-div-custom">
+						<div class="product-div">
+							<div class="product-image-div col-md-offset-1 col-md-11 col-sm-offset-4 col-sm-8 col-xs-offset-2 col-xs-8" >
+								<img src="images/Fastlane_MGN_29.png" class="img-responsive" />
+							</div>
+							<div class="col-md-12 col-sm-12 product-name-div">
+								<span class="span-text" class="product-name">Fastlane MGN 29</span>
+							</div>
+							<div class="col-md-12 col-sm-12 product-price-div">
+								<div class="col-md-12">
+									<span class="product-currency">&euro;</span>
+									<span class="product-price">1899</span>
+								</div> 
+							</div>
+							<a class="product-add-to-cart-button" href="">	
+								<span class="span-text">Add to cart</span>
+							</a>
+						</div>
+					</div>
 				</div>
 			</div>
-		
 		</div>
 	</body>
+	<script src="js/main.js"></script>
 </html>
